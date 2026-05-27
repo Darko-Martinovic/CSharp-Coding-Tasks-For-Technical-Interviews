@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+
+    <!-- Nullable analysis is ON, and nullability warnings are ERRORS, so this
+         project DOES NOT COMPILE until every nullability issue is resolved. -->
+    <Nullable>enable</Nullable>
+    <WarningsAsErrors>nullable</WarningsAsErrors>
+
+    <RootNamespace>NullableReferencesTask</RootNamespace>
+    <AssemblyName>NullableReferences-Task</AssemblyName>
+  </PropertyGroup>
+
+</Project>
